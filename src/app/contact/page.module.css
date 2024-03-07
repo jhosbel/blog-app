@@ -51,3 +51,20 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+@media (max-width: 640px) {
+    .content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .imgContainer {
+        flex: none;
+        height: 200px;
+        width: 100%;
+    }
+
+    .image {
+        height: 80%;
+    }
+}

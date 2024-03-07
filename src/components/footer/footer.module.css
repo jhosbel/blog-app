@@ -16,3 +16,10 @@
     opacity: 0.6;
     cursor: pointer;
 }
+
+@media (max-width: 640px) {
+    .container {
+        font-size: 8px;
+        height: 20px;
+    }
+}

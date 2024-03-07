@@ -39,3 +39,28 @@
   font-weight: 300;
 }
 
+@media (max-width: 640px) {
+  .container {
+    gap: 0;
+    flex-direction: column-reverse;
+  }
+
+  .img {
+    height: 200px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .desc {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .item {
+    align-items: center;
+  }
+}
+
