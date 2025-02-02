@@ -156,7 +156,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 ## Estilos modulares
 
 Cada componente tiene su propio archivo de estilos en la carpeta `styles/.` Por ejemplo:
-    ```css
+
     /* styles/Header.module.css */
     .header {
         background-color: #333;
@@ -164,7 +164,7 @@ Cada componente tiene su propio archivo de estilos en la carpeta `styles/.` Por 
         padding: 1rem;
         text-align: center;
     }
-    ```
+
 Se importan en los componentes de la siguiente manera:
 
     import styles from '../styles/Header.module.css';
